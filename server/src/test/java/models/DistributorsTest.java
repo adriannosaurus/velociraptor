@@ -20,10 +20,17 @@ class DistributorsTest
         testDistributors.add(new Item("Existing Item", 525600, 0.12));
 
         /*
-        I'm not going to lie, I got kind of lost with unit testing this method.
-        This is most likely due to my unfamiliarity with Gson and how it is
-           interacting with the code in Distributors.getRestockCost()
-        So that's definitely an area I would need to study a bit to get comfortable with
+        I'm not going to lie, I got kind of lost on where to start testing this method
+        because of my unfamiliarity with Gson and how it is interacting with the
+        code in Distributors.getRestockCost() and generating the item array.
+        So that's definitely an area I would need to study to understand better
+        and ultimately be comfortable unit testing :)
+
+        Unit Test Cases I Would Create
+        -One possible cost
+        -2+ vendors have same cost, ensure no double calculation
+        -2+ vendors have different cost, ensure using lower cost
+        -No vendors have it, therefore no cost available
          */
     }
 }
