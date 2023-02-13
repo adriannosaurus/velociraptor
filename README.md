@@ -1,33 +1,21 @@
-## System Requirements
-- [Latest LTS version of Node](https://nodejs.org/en/download/)
-- [Java 8](https://www.java.com/en/download/manual.jsp)
+## Hello!
 
-## Getting Started
+Apologies for the different Github repository. I made a silly mistake when trying to push the updated project, and I don't currently have the time/bandwidth to troubleshoot it
 
-Clone this repo `git clone https://github.com/TopBloc/qa-code-challenge.git`
+I'm back, this time with working software and a basic understanding of the software I'm working with. Thank you again for the super quick crash course and the resources you provided regarding IntelliJ unit testing with JUnit! They were a huge help, and I felt so much more comfortable working with the tools
 
-Run the frontend code within the `/client` folder:
+In this submission, the four of the classes (Distributor, Distributors, Inventory, Item) each have an associated test class. You will find some notes and train-of-thought work in the test classes, outlining the progress I made and acknowledging my setbacks/shortcomings. In short, I began overthinking what exactly was being tested and how to get the test scenarios where I needed them, which led to me confusing myself
 
-```bash
-cd client
-npm install
-npm run start
-```
-We are aware of a couple of intermittent issues in the challenge. 
-  - If you receive a conflicting peer dependency issue when installing running `npm install`, use the legacy dependencies flag: `npm install --legacy-peer-deps`. 
-  - Depending on your environment, you may also run into an error stating that digital envelope routines are unsupported when trying to run the client. You can solve this by   running `export NODE_OPTIONS=--openssl-legacy-provider` in bash.
-  - When running the server, you receive an error related to logging in the console. This is actually the web framework throwing an error - we don't have logging implemented for this challenge, but the server is running.
+As mentioned in the pterodactyl repository, there are a few extra files in the project showcasing other skills and trains of thought. They haven't been changed, but I am keeping them in the project
 
 
-After running previous commands, you should see a website with instructions at `http://localhost:3000`.
+## Musings
+I had a good time diving into this challenge problem! However, as I dove in, I realized that the skills needed to best excel in the challenge are a bit different than my current experience in Quality Engineering. My current realm of expertise is in working with and adding custom methods to a core library that will automate the execution of test scripts in a web-based system. This challenge forced me to focus solely on testing the code itself by creating custom unit test scenarios directly in the IDE
 
-Open the `/server` folder as a Maven project within a Java IDE and run the project. We suggest using IntelliJ IDEA. In order to get the backend running, you will need to run `Main.java` in IntelliJ.
+Despite the disparity in my current expertise and what this challenge had to offer, I still greatly enjoyed learning and problem solving with a new toolset! It was a very cool exercise in combining my business analyst background in thinking of test scenarios with my quality engineer background in coding. I hope to improve my knowledge and skills in this area :)
 
-## Submission
+## Next Steps
 
-1. Create a new repository within GitHub and name it as your favorite animal (ex. Sloth, Zebra)
-2. Set the remote origin of this cloned project to your newly created GitHub repository:
-```
-git remote set-url --push origin https://github.com/<github_username>/<favorite_animal>
-```
-3. Push your completed code challenge!
+I completely understand that it's difficult to assess someone's competency and coding skills on what essentially boils down to "just trust me." But I'm still confident that I would excel in this role once I settle in, learn the ropes, and get comfortable with the code library. I pride myself in being a fast learner in a supportive environment, and I still hope to have the opportunity to prove that to y'all
+
+If my results of the coding challenge are still a dealbreaker, it was lovely to meet you all and I wish you the best in finding the ideal candidate for this awesome opportunity! :)
