@@ -1,6 +1,6 @@
 ## Hello!
 
-Apologies for the different Github repository. I made a silly mistake when trying to push the updated project, and I don't currently have the time/bandwidth to troubleshoot it
+Apologies for the different Github repository. I made a silly mistake when trying to push the updated project to the original pterodactyl repo, and I don't currently have the time/bandwidth to troubleshoot it
 
 I'm back, this time with working software and a basic understanding of the software I'm working with. Thank you again for the super quick crash course and the resources you provided regarding IntelliJ unit testing with JUnit! They were a huge help, and I felt so much more comfortable working with the tools
 
